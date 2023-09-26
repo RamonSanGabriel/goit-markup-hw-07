@@ -953,6 +953,7 @@ margin-bottom: 0px;
 
   .navigation-menu {
     list-style: none;
+    display: inline-block;
   }
 
   .navigation-list {
