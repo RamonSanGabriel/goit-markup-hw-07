@@ -156,11 +156,10 @@
     margin: 0 auto;
     /* text-align: flex-end; */
   }
+.footer-box1 {
+  text-align: left;
+}
 
-  .footer-box1>a {
-    display: inline;
-    text-align: left;
-  }
 
   .container-footer p {
     width: 264px;

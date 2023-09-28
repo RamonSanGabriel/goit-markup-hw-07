@@ -616,10 +616,11 @@ p {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-
+.footer-box1 {
+  text-align: center;
+}
 .footer-box1>a {
   display: inline-block;
-  text-align: center;
   color: var(--cloud, #f4f4fd);
   font-family: Raleway;
   font-size: 18px;
