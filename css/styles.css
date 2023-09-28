@@ -74,6 +74,9 @@ p {
   flex-basis: calc((100% - 72px) / 4);
 }
 
+/* .team-list img {
+  width: auto;
+} */
 
 /* Header: Navigation container section  */
 .container-header {
@@ -400,7 +403,6 @@ p {
   margin: 8px 0px;
   color: var(--slate);
 }
-
 
 .social-media-menu {
   list-style: none;

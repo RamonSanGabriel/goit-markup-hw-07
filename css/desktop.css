@@ -135,6 +135,10 @@
     margin: 0 auto;
   }
 
+  /* .team-list img  {
+    width: 100
+  } */
+
   .customer-menu {
     display: flex;
     flex-wrap: wrap;
@@ -156,9 +160,10 @@
     margin: 0 auto;
     /* text-align: flex-end; */
   }
-.footer-box1 {
-  text-align: left;
-}
+
+  .footer-box1 {
+    text-align: left;
+  }
 
 
   .container-footer p {
@@ -173,7 +178,7 @@
 
   .footer-icon-list p {
     margin: 0 120px 16px;
-    text-align:left;
+    text-align: left;
   }
 
   .footer-box2 {
@@ -201,7 +206,7 @@
 
   .footer-form-subscribe {
     padding-top: 0;
-    
+
   }
 
   .footer-subscribe-button {
