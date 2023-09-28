@@ -629,6 +629,9 @@ p {
   text-transform: uppercase;
   text-decoration: none;
 }
+.footer-box1 p {
+  text-align: center;
+}
 
 .container-footer p {
   color: var(--cloud);
@@ -640,7 +643,6 @@ p {
   /* margin: 0 auto; */
   text-align: left;
 }
-
 
 .footer-icon-menu {
   display: flex;
@@ -654,6 +656,7 @@ p {
   font-weight: 500;
   letter-spacing: 0.32px;
   margin: 72px 0px 16px;
+  text-align: center;
 }
 
 .footer-box2 {
@@ -690,6 +693,7 @@ p {
 
 .footer-form-subscribe {
   padding-top: 72px;
+  text-align: center;
 }
 
 .footer-form-email {
@@ -703,7 +707,7 @@ p {
   font-size: 12px;
   letter-spacing: 0.48px;
   color: var(--lightslate);
-  width: 264px;
+  width: 100%;
   height: 40px;
   padding: 8px 16px;
   margin-top: 16px;
