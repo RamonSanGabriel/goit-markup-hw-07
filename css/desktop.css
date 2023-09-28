@@ -109,13 +109,7 @@
   }
 
   .services-title {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 2.5em;
-    letter-spacing: 0.72px;
-    text-align: center;
-    margin-bottom: 72px;
-    text-transform: capitalize;
+    display: block;
   }
 
   .services-list {
@@ -124,7 +118,7 @@
   }
 
   .services-list img {
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    display: block;
     width: 100%;
   }
 
@@ -135,7 +129,7 @@
     margin: 0 auto;
   }
 
-  .team-list img  {
+  .team-list img {
     width: 100%;
   }
 

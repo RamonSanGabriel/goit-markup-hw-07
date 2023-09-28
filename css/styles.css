@@ -69,8 +69,8 @@ p {
 }
 
 /* .feature-list, */
-.card-list,
-.team-list {
+.card-list{
+  /* flex-shrink: 1; */
   flex-basis: calc((100% - 72px) / 4);
 }
 
