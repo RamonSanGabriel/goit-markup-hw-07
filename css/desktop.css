@@ -135,9 +135,9 @@
     margin: 0 auto;
   }
 
-  /* .team-list img  {
-    width: 100
-  } */
+  .team-list img  {
+    width: 100%;
+  }
 
   .customer-menu {
     display: flex;
