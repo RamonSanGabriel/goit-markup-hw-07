@@ -59,4 +59,21 @@
   .customer-list {
     flex-basis: calc((100% - 16px) / 4);
   }
+
+  .container-footer p {
+    color: var(--cloud);
+    text-decoration: none;
+    /* text-align: center; */
+    /* width: 268px; */
+    margin: 0;
+    text-align: left;
+  }
+
+  .footer-box1 {
+    text-align: left;
+  }
+
+  .footer-box2 {
+    display: inline-flex;
+  }
 }

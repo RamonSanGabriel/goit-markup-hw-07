@@ -69,10 +69,10 @@
 
   .feature-menu {
     /* display: flex; */
-    flex-wrap: wrap;
-    list-style: none;
-    justify-content: center;
-    align-items: flex-start;
+    /* flex-wrap: wrap; */
+    /* list-style: none; */
+    /* justify-content: center; */
+    /* align-items: flex-start; */
     gap: 24px;
 
   }
@@ -165,9 +165,9 @@
     /* text-align: flex-end; */
   }
 
-  .footer-box1 {
+  /* .footer-box1 {
     text-align: left;
-  }
+  } */
 
 
   .container-footer p {
@@ -186,6 +186,7 @@
   }
 
   .footer-box2 {
+    display: block;
     width: 264px;
     margin-left: 120px;
   }

@@ -276,9 +276,10 @@ p {
   row-gap: 72px;
 }
 
-.feature-list {
+/* .feature-list {
   margin-bottom: 72px;
-}
+} */
+
 
 .feature-list:last-child {
   margin-bottom: 0px;
