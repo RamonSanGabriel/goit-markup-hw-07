@@ -1,0 +1,10 @@
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 112px 0;
+  }
+
+  .hero-title {
+    color: tomato;
+    margin-bottom: 36px;
+  }
+}
