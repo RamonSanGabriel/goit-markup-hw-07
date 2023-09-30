@@ -54,7 +54,6 @@
     line-height: 3.75rem;
     letter-spacing: 1.12px;
     text-transform: capitalize;
-    color: yellow;
     margin-bottom: 48px;
   }
 
@@ -69,7 +68,7 @@
   }
 
   .feature-menu {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     list-style: none;
     justify-content: center;
@@ -106,10 +105,12 @@
   .services {
     padding-bottom: 120px;
   }
-.services-title,
-.services {
-  display: block;
-}
+
+  .services-title,
+  .services {
+    display: block;
+  }
+
   .services-list {
     flex-shrink: 1;
     flex-basis: calc((100% - 72px) / 3);
@@ -127,24 +128,31 @@
     margin: 0 auto;
   }
 
+  .team-list {
+    flex-basis: calc((100% - 24px * 3) /4);
+  }
+
   .team-list img {
     width: 100%;
   }
 
   .customer-menu {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    justify-content: center;
-    align-items: flex-start;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* list-style: none; */
+    /* justify-content: center; */
+    /* align-items: flex-start; */
     gap: 24px;
   }
-.customer-list {
-  flex-basis: calc((100% - 120px) / 6);
-}
-.customer-icon {
-  width: 168px;
-}
+
+  .customer-list {
+    flex-basis: calc((100% - 120px) / 6);
+  }
+
+  .customer-icon {
+    width: 168px;
+  }
+
   .footer {
     padding: 101.5px 15px 100px;
   }
@@ -211,4 +219,3 @@
 
   }
 }
-

@@ -57,7 +57,6 @@ p {
 
 .services-menu,
 .team-menu,
-
 .card-menu,
 .filter-menu {
   display: flex;
@@ -269,6 +268,7 @@ p {
 }
 
 .feature-menu {
+  display: inline-flex;
   list-style: none;
 }
 
