@@ -127,7 +127,9 @@
     padding: 120px 0px;
     margin: 0 auto;
   }
-
+.team-menu {
+  gap: 24px;
+}
   .team-list {
     flex-basis: calc((100% - 24px * 3) /4);
   }

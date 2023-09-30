@@ -64,7 +64,7 @@ p {
   list-style: none;
   justify-content: center;
   align-items: flex-start;
-  gap: 24px;
+  /* gap: 24px; */
 }
 
 /* .feature-list, */
