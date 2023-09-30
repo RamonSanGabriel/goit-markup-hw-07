@@ -139,8 +139,12 @@
     align-items: flex-start;
     gap: 24px;
   }
-
-
+.customer-list {
+  flex-basis: calc((100% - 120px) / 6);
+}
+.customer-icon {
+  width: 168px;
+}
   .footer {
     padding: 101.5px 15px 100px;
   }
