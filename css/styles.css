@@ -269,7 +269,11 @@ p {
 
 .feature-menu {
   display: inline-flex;
+  flex-wrap: wrap;
   list-style: none;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 72px;
 }
 
 .feature-list {
