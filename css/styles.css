@@ -46,7 +46,7 @@ p {
 
 .container {
   padding: 0px 16px;
-  min-width: 428px;
+  /* min-width: 428px; */
   margin: 0 auto;
 }
 
@@ -64,7 +64,7 @@ p {
   list-style: none;
   justify-content: center;
   align-items: flex-start;
-  /* gap: 24px; */
+  gap: 24px;
 }
 
 /* .feature-list, */
@@ -702,7 +702,6 @@ p {
   padding: 8px 16px;
   margin-top: 16px;
   margin-bottom: 16px;
-
   border: none;
   border-radius: 4px;
   border: 1px solid var(--WHITE, #FFF);
@@ -713,7 +712,7 @@ p {
 
 .footer-subscribe-button {
   padding: 8px 24px;
-  right: 56px;
+  /* right: 56px; */
   display: inline-flex;
   cursor: pointer;
   height: 40px;
