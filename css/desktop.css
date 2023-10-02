@@ -114,6 +114,7 @@
   .services-menu {
     gap: 24px;
   }
+
   .services-list {
     flex-shrink: 1;
     flex-basis: calc((100% - 72px) / 3);
@@ -130,9 +131,11 @@
     padding: 120px 0px;
     margin: 0 auto;
   }
-.team-menu {
-  gap: 24px;
-}
+
+  .team-menu {
+    gap: 24px;
+  }
+
   .team-list {
     flex-basis: calc((100% - 24px * 3) /4);
   }
@@ -153,7 +156,8 @@
   .customer-list {
     flex-basis: calc((100% - 24px * 5) / 6);
   }
-/* 
+
+  /* 
   .customer-icon {
     width: 168px;
   } */
@@ -180,9 +184,11 @@
     text-align: left;
     margin: 17.5px auto;
   }
-    .footer-box1 {
-      flex-basis: 0;
-    }
+
+  .footer-box1 {
+    flex-basis: 0;
+  }
+
   .footer-icon-menu {
     align-items: flex-start;
   }
@@ -211,14 +217,23 @@
     text-align: left;
   }
 
+  /* .footer-form-email {
+    display: inline;
+  } */
+
   .footer-form-email input {
     /* display: inline-flex; */
     margin-bottom: 0;
-    width: 264px;
+    /* width: 264px; */
+    align-items: center;
   }
 
   .footer-form-subscribe {
     padding-top: 0;
+  }
 
+  .footer-subscribe-button {
+    display: inline-flex;
+    align-items: center;
   }
 }

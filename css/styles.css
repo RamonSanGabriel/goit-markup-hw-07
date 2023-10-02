@@ -741,6 +741,7 @@ p {
   fill: var(--white);
 }
 
+
 .footer-subscribe-button:hover {
   cursor: pointer;
   background: var(--ocean);

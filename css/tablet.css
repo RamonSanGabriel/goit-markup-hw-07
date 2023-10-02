@@ -98,7 +98,9 @@
     margin-top: 0;
     margin-bottom: 16px;
   }
-
+.footer-form-email {
+  display: inline;
+}
   .footer-form-email input {
     /* flex-basis: calc((100% - 24px) /2); */
     display: inline-flex;
