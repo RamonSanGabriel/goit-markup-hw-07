@@ -36,6 +36,10 @@
     display: inline-block;
   }
 
+  /* .mobile-menu {
+    display: none;
+  } */
+
   .section-hero {
     background: linear-gradient(rgba(46, 47, 66, .70),
         rgba(46, 47, 66, .70)),
