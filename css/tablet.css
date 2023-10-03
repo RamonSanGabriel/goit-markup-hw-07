@@ -9,10 +9,26 @@
     margin: 0 auto;
   }
 
-  .mobile-menu {
+  .mobile-nav-button {
     display: none;
     /* border: 0; */
     /* background-color: transparent; */
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .mobile-nav-menu {
+    display: none;
+  }
+
+  .mobile-nav-info {
+    display: none;
+  }
+
+  .modal-close {
+    display: none;
   }
 
   .hero-title {

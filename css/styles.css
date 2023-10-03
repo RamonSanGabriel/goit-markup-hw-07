@@ -211,7 +211,7 @@ p {
   width: 100%;
 }
 
-.mobile-menu {
+.mobile-nav-button {
   display: inline-flex;
   width: 32px;
   height: 22px;
@@ -220,8 +220,31 @@ p {
   cursor: pointer;
   border: 0;
   background: transparent;
-  fill: var(--navyblue);
+  /* fill: var(--navyblue); */
 }
+
+.mobile-nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--white);
+}
+
+.mobile-nav-menu-item {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 2.5rem;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.mobile-nav-menu-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
 
 /* Hero container section  */
 .section-hero {
