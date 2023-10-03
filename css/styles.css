@@ -210,7 +210,16 @@ p {
   opacity: 1;
   width: 100%;
 }
-
+.mobile-menu svg {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 0;
+  ba
+}
 /* Hero container section  */
 .section-hero {
   background: linear-gradient(rgba(46, 47, 66, .70),
