@@ -242,7 +242,7 @@ p {
 }
 
 .mobile-nav .is-open {
-visibility: visible;
+  /* visibility: visible; */
   pointer-events: auto;
   opacity: 1;
 }
