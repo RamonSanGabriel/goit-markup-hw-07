@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .section-hero {
     padding: 112px 0;
   }
@@ -9,27 +9,25 @@
     margin: 0 auto;
   }
 
+  .navigation-menu,
+  .address-menu-list {
+    display: inline-flex;
+  }
+
   .mobile-nav-button {
     display: none;
     /* border: 0; */
     /* background-color: transparent; */
   }
 
-  .mobile-nav {
+  .mobile-nav,
+  .mobile-nav-menu,
+  .mobile-nav-info,
+  .mobile-nav-close {
     display: none;
   }
 
-  .mobile-nav-menu {
-    display: none;
-  }
 
-  .mobile-nav-info {
-    display: none;
-  }
-
-  .modal-close {
-    display: none;
-  }
 
   .hero-title {
     margin-bottom: 36px;
@@ -135,4 +133,5 @@
   .footer-form-subscribe {
     text-align: left;
   }
+
 }
