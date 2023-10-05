@@ -222,9 +222,6 @@ p {
   background: transparent;
 }
 
-.mobile-nav-button svg {
-  fill: var(--navyblue);
-}
 
 .mobile-nav {
   display: block;
@@ -235,16 +232,21 @@ p {
   bottom: 0;
   padding-left: 40px;
   padding-top: 80px;
-  background-color: var(--white);
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
 }
 
+.mobile-nav-button {
+  fill: var(--navyblue);
+  visibility: visible;
+}
+
 .mobile-nav .is-open {
-  /* visibility: visible; */
+  visibility: visible;
   pointer-events: auto;
   opacity: 1;
+  background-color: var(--white);
 }
 
 .mobile-nav-close {
@@ -254,12 +256,12 @@ p {
   right: 24px;
   justify-content: center;
   align-items: center;
-  border-radius: 12px;
+  stroke: rgba(46, 47, 66, 1);
   border: 1px solid var(--CORNFLOWER, #E7E9FC);
+  border-radius: 12px;
   background-color: transparent;
   cursor: pointer;
   pointer-events: auto;
-  stroke: rgba(46, 47, 66, 1);
   stroke-width: 1px;
   transition-property: visibility, opacity;
   transition-duration: 250ms;
@@ -293,11 +295,11 @@ p {
   text-decoration: none;
 }
 
-.mobile-nav-menu-item:not(:last-child) {
+.mobile-nav-menu-list:not(:last-child) {
   margin-bottom: 40px;
 }
 
-.mobile-nav-menu-item:last-child {
+.mobile-nav-menu-list:last-child {
   margin-bottom: 284px;
 }
 
