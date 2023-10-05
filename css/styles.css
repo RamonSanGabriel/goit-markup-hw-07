@@ -252,16 +252,17 @@ p {
 
 .mobile-nav-close {
   display: flex;
-
   position: absolute;
   top: 24px;
   right: 24px;
+  width: 24px;
+    height: 24px;
   justify-content: center;
   align-items: center;
   stroke: rgba(46, 47, 66, 1);
   border: 1px solid var(--CORNFLOWER, #E7E9FC);
   border-radius: 12px;
-  /* background-color: transparent; */
+  background-color: transparent;
   cursor: pointer;
   pointer-events: auto;
   stroke-width: 1px;
