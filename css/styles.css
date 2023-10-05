@@ -224,7 +224,8 @@ p {
 
 
 .mobile-nav {
-  display: block;
+  display: flex;
+  flex-direction: column;
   position: fixed;
   top: 0;
   left: 0;
@@ -233,9 +234,9 @@ p {
   padding-left: 40px;
   padding-top: 80px;
   background-color: var(--white);
-  /* visibility: hidden; */
-  /* opacity: 0; */
-  /* pointer-events: none; */
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .mobile-nav-button {
@@ -243,7 +244,7 @@ p {
   visibility: visible;
 }
 
-.mobile-nav .is-open {
+.mobile-nav.is-open {
   visibility: visible;
   pointer-events: auto;
   opacity: 1;
@@ -251,6 +252,7 @@ p {
 
 .mobile-nav-close {
   display: flex;
+
   position: absolute;
   top: 24px;
   right: 24px;
@@ -259,7 +261,7 @@ p {
   stroke: rgba(46, 47, 66, 1);
   border: 1px solid var(--CORNFLOWER, #E7E9FC);
   border-radius: 12px;
-  background-color: transparent;
+  /* background-color: transparent; */
   cursor: pointer;
   pointer-events: auto;
   stroke-width: 1px;
