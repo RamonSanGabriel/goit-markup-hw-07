@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/modern-normalize.css">
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="/css/modern-normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="./css/tablet.css">
   <link rel="stylesheet" href="./css/desktop.css">
 
@@ -37,7 +37,6 @@
             <a href="">Contacts</a>
           </li>
         </ul>
-
       </nav>
       <address class="address-section">
         <ul class="address-menu">
@@ -49,27 +48,7 @@
           </li>
         </ul>
       </address>
-      <button class="mobile-nav-button .js-open-menu">
-        <svg>
-          <use href="./images/icons.svg#icon-menu-hamburger"></use>
-        </svg>
-      </button>
-      <nav class="mobile-nav .js-menu-container">
-        <ul class="mobile-nav-menu">
-          <li class="mobile-nav-menu-item"><a href="./index.html">Studio</a></li>
-          <li class="mobile-nav-menu-item"><a href="./portfolio.html">Portfolio</a></li>
-          <li class="mobile-nav-menu-item"><a href="#"></a>Contacts</li>
-        </ul>
-        <ul class="mobile-nav-info">
-          <li><a class="mobile-nav-info-tel" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-          <li><a class="mobile-nav-info-email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        </ul>
-        <button class="mobile-nav-close .js-close-menu">
-          <svg class="mobile-nav-close-icon">
-            <use href="./images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
-      </nav>
+      
     </div>
   </header>
   <main>
@@ -151,7 +130,7 @@
         <!-- </div> -->
       </div>
     </section>
-    <!-- Section 3: Team -->
+    <!-- <-- Section 3: Team -->
     <section class="section-team">
       <div class="container">
         <h2 class="team-title">Our team</h2>
@@ -414,6 +393,7 @@
             <use href="./images/icons.svg#icon-user"></use>
           </svg>
         </label>
+
         <label class="user-contact-field">
           <div class="user-contact-label">Telephone:</div>
           <input type="tel" placeholder="e.g. +63 999-999-9999" name="phone">
@@ -421,6 +401,7 @@
             <use href="./images/icons.svg#icon-tel"></use>
           </svg>
         </label>
+
         <label class="user-contact-field">
           <div class="user-contact-label">Email:</div>
           <input type="email" placeholder="user@domain.com" name="email">
@@ -428,10 +409,13 @@
             <use href="./images/icons.svg#icon-email"></use>
           </svg>
         </label>
+
         <label class="user-contact-field">
           <div class="user-contact-label">Comments:</div>
           <textarea name="comments" placeholder="Text input" rows="5"></textarea>
         </label>
+
+
         <label class="user-contact-checkbox">
           <input type="checkbox" name="agree">
         </label>
@@ -441,7 +425,7 @@
         <button class="user-contact-submit" type="submit">Send</button>
         <!-- <input type="submit" value="Send"> -->
       </form>
-      <button class="modal-close" type="button" data-modal-close>
+      <button class="modal-close" data-modal-close>
         <svg>
           <use href="./images/icons.svg#icon-close"></use>
         </svg>
