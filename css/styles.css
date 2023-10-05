@@ -232,9 +232,10 @@ p {
   bottom: 0;
   padding-left: 40px;
   padding-top: 80px;
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
+  background-color: var(--white);
+  /* visibility: hidden; */
+  /* opacity: 0; */
+  /* pointer-events: none; */
 }
 
 .mobile-nav-button {
@@ -246,7 +247,6 @@ p {
   visibility: visible;
   pointer-events: auto;
   opacity: 1;
-  background-color: var(--white);
 }
 
 .mobile-nav-close {
@@ -327,6 +327,7 @@ p {
   letter-spacing: 0.4px;
   text-decoration: none;
   color: var(--slate);
+  margin-bottom: 48px;
 }
 
 /* Hero container section  */
