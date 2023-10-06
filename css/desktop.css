@@ -5,11 +5,23 @@
 
   .container {
     padding: 0px 156px;
-
     margin: 0 auto;
   }
 
   /* Header: Navigation container section  */
+  .section-hero {
+    background: linear-gradient(rgba(46, 47, 66, .70),
+        rgba(46, 47, 66, .70)),
+      url('../images/people-office.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
   .container-header {
     position: relative;
     display: flex;
@@ -25,7 +37,7 @@
 
   .navigation-menu {
     list-style: none;
-    display: inline-block;
+    display: inline-flex;
   }
 
   .navigation-list {
@@ -35,16 +47,20 @@
   .address-menu-list {
     display: inline-block;
   }
-/* 
+
+
   .mobile-menu {
     display: none;
   }
-.mobile-nav {
-  display: none;
-}
-.modal-close {
-  display: none;
-} */
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .modal-close {
+    display: none;
+  }
+
   .section-hero {
     background: linear-gradient(rgba(46, 47, 66, .70),
         rgba(46, 47, 66, .70)),
@@ -151,6 +167,10 @@
 
   .team-list img {
     width: 100%;
+  }
+
+  .social-media-icon {
+    padding: 12px;
   }
 
   .customer-menu {
