@@ -853,8 +853,7 @@ p {
   position: absolute;
   right: 24px;
   top: 24px;
-
-
+  background: transparent;
 }
 
 .modal-close svg {
