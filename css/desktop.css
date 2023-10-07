@@ -45,21 +45,21 @@
   }
 
   .address-menu-list {
-    display: inline-block;
+    display: inline-flex;
+    margin-right: 40px;
   }
 
-
-  .mobile-menu {
+.address-section {
+  margin-left: auto;
+}
+  /* .mobile-menu {
     display: none;
   }
 
   .mobile-nav {
     display: none;
-  }
+  } */
 
-  .modal-close {
-    display: none;
-  }
 
   .section-hero {
     background: linear-gradient(rgba(46, 47, 66, .70),
