@@ -138,6 +138,7 @@ p {
   bottom: 0;
   padding-left: 40px;
   padding-top: 80px;
+  padding-bottom: 40px;
   background-color: var(--white);
   visibility: hidden;
   opacity: 0;
@@ -466,6 +467,8 @@ p {
 
 .social-mobile-icon {
   padding: 8px;
+  width:40px;
+  height: 40px;
 }
 
 .social-media-icon:last-child {
