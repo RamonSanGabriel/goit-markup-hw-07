@@ -217,7 +217,14 @@ p {
 .mobile-nav-menu-list:last-child {
   margin-bottom: 284px;
 }
+.mobile-nav-menu-list a {
+  color: var(--navyblue);
+}
 
+.mobile-nav-menu-list a:hover,
+.mobile-nav-menu-list a:focus {
+  color: var(--ocean);
+}
 .mobile-nav-info {
   list-style: none;
 }
