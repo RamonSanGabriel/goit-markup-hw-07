@@ -960,7 +960,9 @@ p {
   width: 100%;
   margin-right: 8px;
 }
-
+.user-contact-checkbox input {
+  cursor: pointer;
+}
 .user-contact-agree {
   display: inline;
   font-size: 12px;
